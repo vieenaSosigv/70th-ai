@@ -341,14 +341,14 @@ export default function InvitationPage() {
               </div>
               <div className="contact-actions">
                 <a
-                  href="tel:010-8760-0186"
+                  href="tel:010-4043-0186"
                   className="contact-btn call"
                   title="전화하기"
                 >
                   📞
                 </a>
                 <a
-                  href="sms:010-8760-0186"
+                  href="sms:010-4043-0186"
                   className="contact-btn message"
                   title="문자하기"
                 >
