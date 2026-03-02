@@ -26,7 +26,7 @@ export default function InvitationPage() {
           audio.volume = vol;
         }
       }, 100);
-    }, 28000);
+    }, 88000);
   };
 
   // 첫 터치/클릭 시 자동 재생
@@ -341,14 +341,14 @@ export default function InvitationPage() {
               </div>
               <div className="contact-actions">
                 <a
-                  href="tel:010-XXXX-XXXX"
+                  href="tel:010-8760-0186"
                   className="contact-btn call"
                   title="전화하기"
                 >
                   📞
                 </a>
                 <a
-                  href="sms:010-XXXX-XXXX"
+                  href="sms:010-8760-0186"
                   className="contact-btn message"
                   title="문자하기"
                 >
@@ -363,14 +363,14 @@ export default function InvitationPage() {
               </div>
               <div className="contact-actions">
                 <a
-                  href="tel:010-XXXX-XXXX"
+                  href="tel:010-7106-0186"
                   className="contact-btn call"
                   title="전화하기"
                 >
                   📞
                 </a>
                 <a
-                  href="sms:010-XXXX-XXXX"
+                  href="sms:010-7106-0186"
                   className="contact-btn message"
                   title="문자하기"
                 >
