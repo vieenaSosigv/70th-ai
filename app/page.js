@@ -129,11 +129,6 @@ export default function InvitationPage() {
     return () => clearTimeout(timer);
   }, []);
 
-  const googleCalendarUrl = "https://calendar.google.com/calendar/render?action=TEMPLATE" +
-    "&text=" + encodeURIComponent("이순자 여사님 칠순 잔치") +
-    "&dates=20260816T023000Z/20260816T053000Z" +
-    "&location=" + encodeURIComponent("채림웨딩홀, 경기도 부천시 부천로 3-1 (심곡동)") +
-    "&details=" + encodeURIComponent("이순자 여사님의 칠순 잔치에 초대합니다.\n오전 11:30 - 오후 2:30\n채림웨딩홀");
 
   const handleShare = async () => {
     const shareData = {
@@ -266,14 +261,6 @@ export default function InvitationPage() {
               </div>
             </div>
           </div>
-          <a
-            href={googleCalendarUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="save-calendar-btn"
-          >
-            📅 일정 저장하기
-          </a>
         </section>
 
 
