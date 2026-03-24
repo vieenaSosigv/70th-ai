@@ -219,10 +219,11 @@ export default function InvitationPage() {
             </p>
           </div>
           <div className="greeting-signature">
-            <span className="sig-name">장녀 이은아</span>
-            ,{" "}
-            <span className="sig-name">차녀 이시정</span>
-            <span className="sig-suffix"> 올림</span>
+            <span className="sig-name">장녀 이은아, 사위 정영진</span>
+            <br />
+            <span className="sig-name">차녀 이시정, 손녀 정혜윤</span>
+            <br />
+            <span className="sig-suffix">올림</span>
           </div>
         </section>
 
